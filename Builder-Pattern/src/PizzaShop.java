@@ -18,5 +18,14 @@ public class PizzaShop {
                 .Build();
 
         System.out.println(pizza3.toString()+"\n");
+
+        Pizza pizza4 = new Pizza.PizzaBuilder()
+                .addCheese()
+                .addFish()
+                .addChicken()
+                .addVegetable()
+                .Build();
+
+        System.out.println(pizza4.toString());
     }
 }
